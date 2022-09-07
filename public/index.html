@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>WOSU deploy setup</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+  <style>
+
+	.container {
+		padding: 2em;
+		display: flex;
+		flex-direction: column;
+	}
+
+	.form-wrapper {
+		margin: 2em;
+		padding: 2em;
+		flex-grow: 1;
+		width: 100%;
+	}
+	.button {
+		margin-top: 2em;
+	}
+
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <div class="form-wrapper box">
+    	<p class="title">Wosu Deploy Setup</p>
+
+    	<div class="field">
+			<label class="label">Folder to clone into ( absolute path )</label>
+			<div class="control">
+				<input class="input" id="folder" type="text">
+			</div>
+
+			<label class="label">Deployment Key</label>
+			<div class="control">
+			  <input class="input" id="key" type="password">
+			</div>
+			<label class="label">Repeat key</label>
+			<div class="control">
+			  <input class="input" id="rep-key" type="password">
+			</div>
+
+			<button class="button is-info" id="submit">save</button>
+		</div>
+    </div>
+  </div>
+	<script src="script.js"></script>
+</body>
+</html>
+
+
+

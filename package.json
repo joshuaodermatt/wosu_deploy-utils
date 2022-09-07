@@ -1,0 +1,24 @@
+{
+  "name": "wosu_deploy-utils",
+  "version": "1.0.0",
+  "description": "## About",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joshuaodermatt/wosu_deploy-utils.git"
+  },
+  "author": "Joshua Odermatt",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joshuaodermatt/wosu_deploy-utils/issues"
+  },
+  "homepage": "https://github.com/joshuaodermatt/wosu_deploy-utils#readme",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "express": "^4.18.1"
+  }
+}
